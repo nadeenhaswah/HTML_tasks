@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <h2>Fill in your information</h2>
+    <form>
+        <fieldset>
+            <legend>Form</legend>
+            <div>
+                <label for="fisrtName">First Name :</label>
+                <br>
+                <input type="text" name="fisrtName" id="fisrtName">
+            </div>
+            <div>
+                <label for="lastName">Last Name :</label>
+                <br>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <h3>Your Gender</h3>
+            <div>
+                <input type="radio" name="gender" id="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="Female">
+                <label for="Female">Female</label>
+            </div>
+
+            <h3>Favotite Subjects</h3>
+            <div>
+                <input type="checkbox" name="c++" id="c++" value="c++">
+                <label for="c++">C++</label>
+                <input type="checkbox" name="java" id="java" value="java">
+                <label for="java">Java</label>
+                <input type="checkbox" name="c#" id="c#" value="c#">
+                <label for="c#">C#</label>
+                <input type="checkbox" name="php" id="php" value="php">
+                <label for="php">PHP</label>
+                <input type="checkbox" name="sql" id="sql" value="sql">
+                <label for="php">SQL</label>
+            </div>
+            
+            <h3>Your City</h3>
+            <div>
+                <label for="city">City : </label>
+                <select name="city" id="city">
+                    <option value="amman">Amman</option>
+                    <option value="zarqa">Zarqa</option>
+                    <option value="irbid">Irbid</option>
+                    <option value="salt">Salt</option>
+                    <option value="mafraq">Mafraq</option>
+                    <option value="madaba">Madaba</option>
+                    <option value="jerash">Jerash</option>
+                    <option value="aqaba">Aqaba</option>
+                    <option value="tafilah">Tafilah</option>
+                    <option value="karak">Karak</option>
+                    <option value="ajloun">Ajloun</option>
+                    <option value="ma'an">Ma'an</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="img">Upload image :</label>
+                <input type="file" name="pic" id="img">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="aboutMe">Write About yourselt :</label>
+                <br>
+                <textarea name="aboutMe" id="aboutMe" placeholder="Write Here" cols="40" rows="5"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
